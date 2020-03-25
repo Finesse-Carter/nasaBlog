@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+body {
+    /* padding-top: 80px; */
+    word-wrap: break-word;
+    background-image: url(img/30SCI-SPITZER1c-superJumbo-v2.jpg);
+    background-size: cover;  
+    background-repeat: no-repeat;
+color: white; 
+}
+p{
+    font-size: 2rem;
+}
+.well {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: rgba(28, 10, 12, 0.685);
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.05);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.05);
+}
