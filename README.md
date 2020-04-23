@@ -3,6 +3,14 @@
 ## <img src="Screenshot1.png">
 ## <img src="Screenshot2.png">
 
+## Tech Used:
+- HTML5
+- CSS3
+- Javascript
+- Node.js
+- Express
+- Mongo DB
+
 1. Clone repo
 2. run `npm install`
 
