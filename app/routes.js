@@ -4,9 +4,16 @@ module.exports = function(app, passport, db) {
   
       // show the home page (will also have our login links)
       app.get('/', function(req, res) {
-          res.render('index.ejs');
+        res.render('index.ejs');
+    }); 
+      
+      app.get('/', function(req, res) {
+        console.log(req.query);  
+       let q = req.query;
+       res.json(q)
+        res.render('index.ejs');
       });
-  
+   
       // PROFILE SECTION =========================
       app.get('/profile', isLoggedIn, function(req, res) {
         if(req.user.local.email){

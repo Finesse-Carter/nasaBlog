@@ -1,5 +1,8 @@
 ## Installation
 
+## <img src="Screenshot1.png">
+## <img src="Screenshot2.png">
+
 1. Clone repo
 2. run `npm install`
 
